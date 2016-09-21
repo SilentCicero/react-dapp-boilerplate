@@ -6,7 +6,7 @@
 <div align="center">A highly scalable, offline-first dApp foundation with the best DX and a focus on performance and best practices</div>
 
 ## Under Development
-This boilerplate is not finished yet. Please use it to see the current configurations. I will have more UI/deployment confirguation coming soon.
+This boilerplate is not finished yet. Please use it to see the current configurations. I will have more UI/deployment configuration coming soon.
 
 ## Features
 
