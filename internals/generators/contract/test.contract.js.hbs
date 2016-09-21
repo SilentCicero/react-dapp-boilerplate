@@ -1,0 +1,22 @@
+/* eslint-disable */
+/* globals describe, it, before */
+
+import expect from 'expect';
+const contracts = require('../build/classes.json');
+const chaithereum = require('chaithereum');
+
+before(() => chaithereum.promise);
+
+describe('{{ properCase name }}', () => {
+  let {{ properCase name }};
+
+  it('successfully instantiates with blank params', () => {
+    return chaithereum.web3.eth.contract(JSON.parse(contracts.{{ properCase name }}.interface)).new.q({ data: contracts.{{ properCase name }}.bytecode }).should.eventually.be.contract.then((_{{ properCase name }}) => {
+      {{ properCase name }} = _{{ properCase name }};
+    }).should.eventually.be.fulfilled;
+  });
+
+  it('successfully instantiates with blank params', () => {
+    expect(true).toEqual(false);
+  });
+});
