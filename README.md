@@ -2,52 +2,11 @@
 
 <br />
 
-<div align="center"><strong>Start your next react project in seconds</strong></div>
-<div align="center">A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices</div>
+<div align="center"><strong>Start your next react Ethereum project in seconds</strong></div>
+<div align="center">A highly scalable, offline-first dApp foundation with the best DX and a focus on performance and best practices</div>
 
-<br />
-
-<div align="center">
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/mxstbr/react-boilerplate">
-    <img src="https://david-dm.org/mxstbr/react-boilerplate.svg" alt="Dependency Status" />
-  </a>
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/mxstbr/react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/mxstbr/react-boilerplate/dev-status.svg" alt="devDependency Status" />
-  </a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/mxstbr/react-boilerplate">
-    <img src="https://travis-ci.org/mxstbr/react-boilerplate.svg" alt="Build Status" />
-  </a>
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/mxstbr/react-boilerplate">
-    <img src="https://coveralls.io/repos/github/mxstbr/react-boilerplate/badge.svg" alt="Test Coverage" />
-  </a>
-</div>
-<div align="center">
-    <!-- Backers -->
-  <a href="#backers">
-    <img src="https://opencollective.com/react-boilerplate/backers/badge.svg" alt="Backers" />
-  </a>
-      <!-- Sponsors -->
-  <a href="#sponsors">
-    <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
-  </a>
-  <a href="http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-boilerplate">
-    <img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
-  </a>
-  <!-- Gitter -->
-  <a href="https://gitter.im/mxstbr/react-boilerplate">
-    <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <sub>Made with ❤︎ by <a href="https://twitter.com/mxstbr">Max Stoiber</a> and <a href="https://github.com/mxstbr/react-boilerplate/graphs/contributors">contributors</a>. <i>If you're using this boilerplate, we'd love to <a href="https://github.com/mxstbr/react-boilerplate/issues/115">hear from you</a>!</i></sub>
-</div>
+## Under Development
+This boilerplate is not finished yet. Please use it to see the current configurations. I will have more UI/deployment confirguation coming soon.
 
 ## Features
 
@@ -78,6 +37,9 @@
 
   <dt>SEO</dt>
   <dd>We support SEO (document head tags management) for search engines that support indexing of JavaScript content. (eg. Google)</dd>
+
+  <dt>Web3</dt>
+  <dd>We use the web3.js object to provide Ethereum standard dApp support.</dd>
 </dl>
 
 But wait... there's more!
@@ -90,6 +52,7 @@ But wait... there's more!
     line!
   - *Catch problems:* AppVeyor and TravisCI setups included by default, so your
     tests get run automatically on Windows and Unix.
+  - *Ethereum integration:* Dapple, Chaithereum, Solium and other systems are fully integrated for contractual support and linting.
 
 There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on how to structure your React.js apps with scalability in mind. It provides rationale for the majority of boilerplate's design decisions.
 
@@ -154,5 +117,4 @@ This project would not be possible without the support by these amazing folks. [
 
 ## License
 
-This project is licensed under the MIT license, Copyright (c) 2016 Maximilian
-Stoiber. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2016 Nick Dodson. For more information see `LICENSE.md`.
